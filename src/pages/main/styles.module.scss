@@ -1,0 +1,21 @@
+.flex__conteiner{
+    display: flex;
+}
+
+.flex__block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin-left: 50px;
+}
+
+@media (max-width: 990px) {
+  .flex__conteiner {
+    flex-direction: column;
+    &_left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+}

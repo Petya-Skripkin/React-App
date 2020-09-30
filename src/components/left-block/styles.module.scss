@@ -1,0 +1,26 @@
+.conteiner {
+  position: relative;
+  width: 170px;
+  height: 200px;
+  border: 1px solid white;
+  box-shadow: 0 0 5px 0 #d8d8d8;
+  border-radius: 5px;
+  color: white;
+  margin: 20px;
+
+  & > img {
+    position: absolute;
+    top: -5px;
+    left: -4px;
+    width: 105%;
+    margin: 0;
+  }
+
+  & > p {
+      position: absolute;
+      top: 160px;
+      left: 20px;
+      font-size: 18px;
+      font-weight: 600;
+  }
+}
